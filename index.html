@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cathy Federiso | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#F8F5EF;
+color:#2B2B2B;
+line-height:1.8;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:0 30px;
+}
+
+.hero{
+min-height:100vh;
+display:grid;
+grid-template-columns:1fr 450px;
+gap:80px;
+align-items:center;
+}
+
+.hero h1{
+font-family:'Cormorant Garamond',serif;
+font-size:88px;
+line-height:1;
+margin-bottom:20px;
+}
+
+.tagline{
+font-size:18px;
+letter-spacing:2px;
+text-transform:uppercase;
+color:#9A7B55;
+margin-bottom:25px;
+}
+
+.intro{
+font-size:20px;
+max-width:650px;
+color:#555;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:#B89563;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+}
+
+.hero img{
+width:100%;
+border-radius:24px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+section{
+padding:100px 0;
+}
+
+.section-title{
+font-family:'Cormorant Garamond',serif;
+font-size:56px;
+text-align:center;
+margin-bottom:20px;
+}
+
+.section-desc{
+max-width:800px;
+margin:auto;
+text-align:center;
+color:#666;
+margin-bottom:50px;
+}
+
+.project{
+margin-bottom:100px;
+}
+
+.project h3{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.project p{
+margin-bottom:30px;
+color:#555;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:14px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.gallery img:hover{
+transform:translateY(-5px);
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+.skills span{
+padding:12px 18px;
+background:white;
+border-radius:999px;
+border:1px solid #E5E5E5;
+}
+
+.contact{
+text-align:center;
+padding:80px 20px;
+background:#EFE7DA;
+border-radius:20px;
+}
+
+.contact h2{
+font-family:'Cormorant Garamond',serif;
+font-size:50px;
+margin-bottom:15px;
+}
+
+.contact p{
+font-size:18px;
+}
+
+footer{
+padding:40px;
+text-align:center;
+color:#666;
+}
+
+@media(max-width:900px){
+
+.hero{
+grid-template-columns:1fr;
+padding:80px 0;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.section-title{
+font-size:42px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<section class="hero">
+
+<div>
+
+<p class="tagline">
+Administrative Operations Assistant
+</p>
+
+<h1>
+Cathy Federiso
+</h1>
+
+<p class="intro">
+I turn scattered information into organized systems.
+
+From supplier sourcing and CRM management to administrative operations and ecommerce support, I help businesses stay organized, save time, and make smarter decisions.
+</p>
+
+<a href="#projects" class="btn">
+View Portfolio
+</a>
+
+</div>
+
+<div>
+<img src="images/profile.jpg" alt="Cathy Federiso">
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+About Me
+</h2>
+
+<p class="section-desc">
+I'm a detail-oriented Administrative Operations Assistant with experience in global supplier sourcing, lead generation, CRM tracking, email marketing, customer support, procurement documentation, and administrative operations.
+</p>
+
+</section>
+
+<section id="projects">
+
+<h2 class="section-title">
+Featured Projects
+</h2>
+
+<div class="project">
+
+<h3>Global Supplier Sourcing & CRM Management</h3>
+
+<p>
+Conducted international supplier sourcing, lead research, outreach tracking, CRM organization, and vendor evaluation across multiple countries.
+</p>
+
+<div class="gallery">
+
+<img src="images/maram1.png">
+<img src="images/maram2.png">
+<img src="images/maram3.png">
+<img src="images/maram4.png">
+<img src="images/maram5.png">
+
+</div>
+
+</div>
+
+<div class="project">
+
+<h3>Email Marketing & Ecommerce Operations</h3>
+
+<p>
+Executed Klaviyo email campaigns, campaign monitoring, localization tasks, and ecommerce support within a fast-paced online retail environment.
+</p>
+
+<div class="gallery">
+
+<img src="images/klaviyo1.png">
+<img src="images/klaviyo2.png">
+<img src="images/klaviyo3.png">
+<img src="images/klaviyo4.png">
+
+</div>
+
+</div>
+
+<div class="project">
+
+<h3>Administrative & Procurement Support</h3>
+
+<p>
+Managed procurement documentation, records management, budget monitoring, and operational reports while ensuring accuracy and compliance.
+</p>
+
+<div class="gallery">
+
+<img src="images/gov1.png">
+<img src="images/gov2.png">
+<img src="images/gov3.png">
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+Core Competencies
+</h2>
+
+<div class="skills">
+
+<span>Lead Generation</span>
+<span>Supplier Research</span>
+<span>CRM Management</span>
+<span>Email Marketing</span>
+<span>Klaviyo</span>
+<span>E-commerce Support</span>
+<span>Administrative Support</span>
+<span>Documentation</span>
+<span>Procurement Support</span>
+<span>Customer Support</span>
+<span>Google Workspace</span>
+<span>Canva</span>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>
+Let's Build Something Efficient Together
+</h2>
+
+<p>
+Open to Administrative Support, Lead Generation, Research, Customer Support and E-commerce opportunities.
+</p>
+
+<br>
+
+<p>📧 cathyfederiso08@gmail.com</p>
+<p>📱 +63 915 243 6568</p>
+<p>📍 Philippines</p>
+
+</section>
+
+<footer>
+
+<p>
+Organization creates efficiency. Efficiency creates growth.
+</p>
+
+</footer>
+
+</div>
+
+</body>
+</html>
